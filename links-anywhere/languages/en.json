@@ -1,0 +1,10 @@
+{
+	"plugin-data":
+	{
+		"name": "Links anywhere",
+		"description": "Shows a link list wherever you want, you can modify these links in settings."
+	},
+	"add-a-new-link": "Add a new link",
+    "links-here-readme": "Copy the following code in the PHP page of your theme where you wish to display the links: ",
+    "links-here-code": "<?php Theme::plugins('linksHere'); ?>"
+}
