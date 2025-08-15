@@ -1,0 +1,24 @@
+{
+    "plugin-data":
+    {
+        "name": "Basic security",
+        "description": "Check for suspicious IP trying to connect to the admin area, configure blocking IP settings and verify other security settings."
+    },
+    "brute-force-attack-title": "Brute-force protection",
+    "brute-force-attack-description": "Brute force attack consists of an attacker trying many passwords or passphrases with the hope of eventually guessing correctly -Wiki. More details can be found on",
+    "bludit-documentation": "Bludit documentation",
+    "minutes-blocked": "Amount of minutes the IP is going to be blocked",
+    "number-failures-allowed": "Number of failed attempts for the block to trigger",
+    "suspicious-ip": "Suspicious IP",
+    "last-failure": "Last failure",
+    "number-of-failures": "Number of failures",
+    "no-ip-in-blacklist": "No IP in blacklist",
+    "security-recommendations": "Security recommendations",
+    "disable-admin-user": "Disable admin user",
+    "the-admin-user-is": "The admin user is",
+    "read": "Read",
+    "for-disabling": "for disabling",
+    "customize-admin-url": "Customize admin URL",
+    "the-admin-path-is": "The admin path is",
+    "for-changing": "for changing it"
+}

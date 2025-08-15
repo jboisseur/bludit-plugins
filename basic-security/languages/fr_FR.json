@@ -1,0 +1,24 @@
+{
+    "plugin-data":
+    {
+        "name": "Sécurité de base",
+        "description": "Vérifier les IP échouant à se connecter à l'espace d'administration, configurer les règles de blocage d'IP et vérifier d'autres paramètres de sécurité."
+    },
+    "brute-force-attack-title": "Protection contre la force brute",
+    "brute-force-attack-description": "Une attaque par force brute (bruteforce attack) consiste à tester, l'une après l'autre, chaque combinaison possible d'un mot de passe ou d'une clé pour un identifiant donné afin se connecter au service ciblé. -Wiki. Voir plus de détails dans la",
+    "bludit-documentation": "documentation Bludit",
+    "minutes-blocked": "Nombre de minutes pendant lesquelles l'adresse IP sera bloquée",
+    "number-failures-allowed": "Nombre d'échecs avant de déclencher le blocage d'IP",
+    "suspicious-ip": "IP suspectes",
+    "last-failure": "Dernier échec",
+    "number-of-failures": "Nombre d'échecs",
+    "no-ip-in-blacklist": "Pas d'IP sur liste noire",
+    "security-recommendations": "Recommandations de sécurité",
+    "disable-admin-user": "Désactiver l'identifiant admin",
+    "the-admin-user-is": "L'identifiant admin est",
+    "read": "Lire la",
+    "for-disabling": "pour le désactiver",
+    "customize-admin-url": "Personnaliser l'URL de l'espace d'administration",
+    "the-admin-path-is": "Le chemin d'accès à l'espace d'administration est",
+    "for-changing": "pour le changer"
+}
