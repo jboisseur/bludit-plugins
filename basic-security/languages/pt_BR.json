@@ -10,7 +10,7 @@
     "minutes-blocked": "Quantidade de minutos o IP ficará bloqueado.",
     "number-failures-allowed": "Número de tentativas até bloquear o acesso.",
     "suspicious-ip": "Ips Suspeitos",
-    "last-failure": "Último Login falho",
+    "last-failure": "Último falha de Login",
     "number-of-failures": "Números de falhas",
     "no-ip-in-blacklist": "Sem IP na blacklist",
     "security-recommendations": "Recomendações de Segurança",
