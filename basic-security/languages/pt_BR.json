@@ -1,0 +1,24 @@
+{
+    "plugin-data":
+    {
+        "name": "Segurança Básica",
+        "description": "Verifique se há IPs suspeitos tentando se conectar à área de administração, configure as configurações de bloqueio de IP e verifique outras configurações de segurança."
+    },
+    "brute-force-attack-title": "Ataque Força Bruta",
+    "brute-force-attack-description": "Ataque de força bruta consiste em um invasor tentar diversas senhas ou frases-senha na esperança de eventualmente adivinhá-las corretamente - Wiki. Mais detalhes podem ser encontrados em ",
+    "bludit-documentation": "Documentação do Bludit",
+    "minutes-blocked": "Quantidade de minutos o IP ficará bloqueado.",
+    "number-failures-allowed": "Número de tentativas até bloquear o acesso.",
+    "suspicious-ip": "Ips Suspeitos",
+    "last-failure": "Último Login falho",
+    "number-of-failures": "Números de falhas",
+    "no-ip-in-blacklist": "Sem IP na blacklist",
+    "security-recommendations": "Recomendações de Segurança",
+    "disable-admin-user": "Desabilitar o usuário admin",
+    "the-admin-user-is": "O uspuario admin é",
+    "read": "Read",
+    "for-disabling": "para desabilitar",
+    "customize-admin-url": "Customizar URL admin",
+    "the-admin-path-is": "O caminho para o admin é ",
+    "for-changing": "para mudar isto"
+}
