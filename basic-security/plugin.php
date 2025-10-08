@@ -21,11 +21,11 @@
             $html = '<p class="alert alert-primary">' . $this->description() . '</p>';
 
             // Info
-            $html .= '<h3 class="mt-3">' . $L->get('brute-force-attack-title') . '</h3>';
+            $html .= '<h3 class="mt-4">' . $L->get('brute-force-attack-title') . '</h3>';
             $html .= '<p>' . $L->get('brute-force-attack-description') . ' <a href="https://docs.bludit.com/en/security/brute-force-protection" lang="en">' . $L->get('bludit-documentation') . '</a>.</p>';
 
             // Settings
-            $html .= '<h4 class="mt-3">' . $L->get('settings') . '</h4>';
+            $html .= '<h4 class="mt-4">' . $L->get('settings') . '</h4>';
             
                 // Amount of minutes the IP is going to be blocked
                 $html .= '<div>';
@@ -40,7 +40,7 @@
                 $html .= '</div>';
 
             // Suspicious IPs suspicious-ip
-            $html .= '<h4 class="mt-3">' . $L->get('suspicious-ip') . '</h4>';
+            $html .= '<h4 class="mt-4">' . $L->get('suspicious-ip') . '</h4>';
 
                 $array = $security->db['blackList'];
 
@@ -50,7 +50,7 @@
                 if ($array) {
                     $html .= '<table class="table table-striped">';
 
-                        $html .= '<caption>' . $L->get('suspicious-ip') . '</caption>';
+                        // $html .= '<caption>' . $L->get('suspicious-ip') . '</caption>';
                         $html .= '<thead>';
                             $html .= '<tr>';
                                 $html .= '<th scope="col">IP</th>';
@@ -78,7 +78,7 @@
                 }
 
             // Security recommendations security-recommendations
-            $html .= '<h3 class="mt-3">' . $L->get('security-recommendations') . '</h3>';
+            $html .= '<h3 class="mt-4">' . $L->get('security-recommendations') . '</h3>';
 
                 // Disable admin user 
                 $html .= '<h5 class="mt-3">' . $L->get('disable-admin-user') . '</h5>';
