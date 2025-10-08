@@ -1,0 +1,24 @@
+{
+    "plugin-data":
+    {
+        "name": "ベーシックセキュリティ",
+        "description": "管理エリアへの接続を試みる不審なIPを確認し、IPブロック設定を構成します。その他のセキュリティ設定を検証します。"
+    },
+    "brute-force-attack-title": "ブルートフォース対策",
+    "brute-force-attack-description": "ブルートフォースアタックとは、攻撃者が多数のパスワードやパスフレーズを試行し、最終的に正解を推測しようとする攻撃手法です -Wiki。詳細は以下を参照してください。",
+    "bludit-documentation": "Bludit ドキュメント",
+    "minutes-blocked": "IPがブロックされる時間（分）",
+    "number-failures-allowed": "ブロック発動までの失敗試行回数",
+    "suspicious-ip": "不審なIP",
+    "last-failure": "最終失敗時刻",
+    "number-of-failures": "失敗回数",
+    "no-ip-in-blacklist": "ブラックリスト登録IPなし",
+    "security-recommendations": "セキュリティ推奨事項",
+    "disable-admin-user": "管理者ユーザーを無効化",
+    "the-admin-user-is": "管理者ユーザーは",
+    "read": "読み取り",
+    "for-disabling": "無効化のため",
+    "customize-admin-url": "管理URLのカスタマイズ",
+    "the-admin-path-is": "管理エリアへのパスは",
+    "for-changing": "変更するには"
+}
