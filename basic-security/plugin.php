@@ -25,7 +25,7 @@
             $html .= '<p>' . $L->get('brute-force-attack-description') . ' <a href="https://docs.bludit.com/en/security/brute-force-protection" lang="en">' . $L->get('bludit-documentation') . '</a>.</p>';
 
             // Settings
-            $html .= '<h4 class="mt-3">' . $L->get('settings') . '</h4>';
+            $html .= '<h4 class="mt-4">' . $L->get('settings') . '</h4>';
             
                 // Amount of minutes the IP is going to be blocked
                 $html .= '<div>';
@@ -40,7 +40,7 @@
                 $html .= '</div>';
 
             // Suspicious IPs suspicious-ip
-            $html .= '<h4 class="mt-3">' . $L->get('suspicious-ip') . '</h4>';
+            $html .= '<h4 class="mt-4">' . $L->get('suspicious-ip') . '</h4>';
 
                 $array = $security->db['blackList'];
 
@@ -81,7 +81,7 @@
             $html .= '<h3 class="mt-3">' . $L->get('security-recommendations') . '</h3>';
 
                 // Disable admin user 
-                $html .= '<h5 class="mt-3">' . $L->get('disable-admin-user') . '</h5>';
+                $html .= '<h4 class="mt-4">' . $L->get('disable-admin-user') . '</h4>';
                 $html .= '<p class="alert alert-';
                 $html .= $admin->enabled() ? 'warning' : 'info';
                 $html .= '">' . $L->get('the-admin-user-is') . ' <b>';
@@ -91,7 +91,7 @@
                 $html .= '</p>';
 
                 // Customize admin URL
-                $html .= '<h5 class="mt-3">' . $L->get('customize-admin-url') . '</h5>';
+                $html .= '<h4 class="mt-4">' . $L->get('customize-admin-url') . '</h4>';
                 $html .= '<p class="alert alert-';
                 $html .= ADMIN_URI_FILTER === "admin" ? 'warning' : 'info';
                 $html .= '">' . $L->get('the-admin-path-is') . ' <code>' . ADMIN_URI_FILTER . '</code>. ';

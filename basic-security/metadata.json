@@ -1,9 +1,9 @@
 {
     "author": "jboisseur",
-    "email": "contact@jboisseur.xyz",
+    "email": "",
     "website": "https://jboisseur.xyz",
-    "version": "1.0",
-    "releaseDate": "2025-08-15",
+    "version": "1.0.2",
+    "releaseDate": "2025-10-21",
     "license": "MIT license",
     "compatible": "3.16.2",
     "notes": ""
