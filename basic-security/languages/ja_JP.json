@@ -2,7 +2,7 @@
     "plugin-data":
     {
         "name": "ベーシックセキュリティ",
-        "description": "管理エリアへの接続を試みる不審なIPを確認し、IPブロック設定を構成します。その他のセキュリティ設定を検証します。"
+        "description": "管理エリアへの接続を試みる不審なIPを確認し、IPブロック設定を構成します。さらに、コアファイルのADMIN_URI_FILTER定数を安全に変更し、アップデート時の全自動復旧を有効にします。その他のセキュリティ設定を検証します。"
     },
     "brute-force-attack-title": "ブルートフォース対策",
     "brute-force-attack-description": "ブルートフォースアタックとは、攻撃者が多数のパスワードやパスフレーズを試行し、最終的に正解を推測しようとする攻撃手法です -Wiki。詳細は以下を参照してください。",
@@ -20,5 +20,13 @@
     "for-disabling": "無効化のため",
     "customize-admin-url": "管理URLのカスタマイズ",
     "the-admin-path-is": "管理エリアへのパスは",
-    "for-changing": "変更するには"
+    "for-changing": "変更するには",
+    "admin-url-filter": "管理画面のURLフィルター設定",
+    "core-file-rewrite": "コア書き換え",
+    "file-not-writable-warning": "警告: コアファイルに書き込み権限がありません。パーミッションを666等に変更してください:",
+    "core-rewrite-info-1": "変更したいURLフィルター値を入力して保存すると、管理URLをカスタマイズします。",
+    "core-rewrite-info-2": "保存されたURL値は、次回、管理画面が表示された時点で更新されます。",
+    "admin-uri-filter-constant": "ADMIN_URI_FILTER の値",
+    "core-rewrite-success-alert": "管理画面URLを「%s」にカスタマイズしました。次回アクセス時からは新しいURLを使用してください。",
+    "core-reset-auto-recovered-alert": "コアファイルの更新を検知したため、リセットされたURLフィルターを以前の設定「%s」に再適用しました。次回アクセスからはこのURLを使用してください。"
 }

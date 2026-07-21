@@ -2,7 +2,8 @@
     "plugin-data":
     {
         "name": "Basic security",
-        "description": "Check for suspicious IP trying to connect to the admin area, configure blocking IP settings and verify other security settings."
+        "description": "Checks suspicious IPs attempting to connect to the admin area and configures IP blocking settings. Furthermore, securely modifies the core ADMIN_URI_FILTER constant and enables automatic recovery after core updates. Validates other security settings."
+
     },
     "brute-force-attack-title": "Brute-force protection",
     "brute-force-attack-description": "Brute force attack consists of an attacker trying many passwords or passphrases with the hope of eventually guessing correctly -Wiki. More details can be found on",
@@ -20,5 +21,13 @@
     "for-disabling": "for disabling",
     "customize-admin-url": "Customize admin URL",
     "the-admin-path-is": "The admin path is",
-    "for-changing": "for changing it"
+    "for-changing": "for changing it",
+    "admin-url-filter": "Admin URL Filter",
+    "core-file-rewrite": "Core Rewrite",
+    "file-not-writable-warning": "Warning: The core file is not writable. Please change permissions to 666 for:",
+    "core-rewrite-info-1": "Enter the URI filter value you want to change and save it to customize the admin URL.",
+    "core-rewrite-info-2": "The saved URL value will be updated the next time the admin panel is loaded.",
+    "admin-uri-filter-constant": "ADMIN_URI_FILTER Value",
+    "core-rewrite-success-alert": "The admin URL has been customized to \"%s\". Please use the new URL for your next access.",
+    "core-reset-auto-recovered-alert": "Core file reset detected. The URL filter has been automatically re-applied to your previous custom setting: \"%s\". Please use this URL for your next access."
 }
