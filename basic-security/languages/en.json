@@ -2,7 +2,8 @@
     "plugin-data":
     {
         "name": "Basic security",
-        "description": "Check for suspicious IP trying to connect to the admin area, configure blocking IP settings and verify other security settings."
+        "description": "Basic security overview and settings: configure IP blocking policy and edit path to access admin panel."
+
     },
     "brute-force-attack-title": "Brute-force protection",
     "brute-force-attack-description": "Brute force attack consists of an attacker trying many passwords or passphrases with the hope of eventually guessing correctly -Wiki. More details can be found on",
@@ -18,7 +19,12 @@
     "the-admin-user-is": "The admin user is",
     "read": "Read",
     "for-disabling": "for disabling",
-    "customize-admin-url": "Customize admin URL",
-    "the-admin-path-is": "The admin path is",
-    "for-changing": "for changing it"
+    "customize-admin-url": "Customize path to admin panel",
+    "the-admin-path-is": "The path to admin panel is ",
+    "for-changing": "for changing it manually, or use the field below",
+    "file-not-writable-warning": "is not writable. Please change permissions to 666.",
+    "core-rewrite-info": "The saved URL value will be updated the next time the admin panel is loaded.",
+    "admin-uri-filter-constant": "Update ADMIN_URI_FILTER value",
+    "core-rewrite-success-alert": "The admin URL has been customized to \"%s\". Please use the new URL for your next access.",
+    "core-reset-auto-recovered-alert": "Core file reset detected. The URL filter has been automatically re-applied to your previous custom setting: \"%s\". Please use this URL for your next access."
 }

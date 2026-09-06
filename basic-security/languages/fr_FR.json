@@ -2,7 +2,7 @@
     "plugin-data":
     {
         "name": "Sécurité de base",
-        "description": "Vérifier les IP échouant à se connecter à l'espace d'administration, configurer les règles de blocage d'IP et vérifier d'autres paramètres de sécurité."
+        "description": "Vue d'ensemble des paramètres de sécurité de base : configurer la politique de blocage des adresses IP et modifier le chemin d'accès au panneau d'administration."
     },
     "brute-force-attack-title": "Protection contre la force brute",
     "brute-force-attack-description": "Une attaque par force brute (bruteforce attack) consiste à tester, l'une après l'autre, chaque combinaison possible d'un mot de passe ou d'une clé pour un identifiant donné afin se connecter au service ciblé. -Wiki. Voir plus de détails dans la",
@@ -20,5 +20,10 @@
     "for-disabling": "pour le désactiver",
     "customize-admin-url": "Personnaliser l'URL de l'espace d'administration",
     "the-admin-path-is": "Le chemin d'accès à l'espace d'administration est",
-    "for-changing": "pour le changer"
+    "for-changing": "pour le changer manuellement, ou utilisez le champ ci-dessous",
+    "file-not-writable-warning": "n'est pas ouvert en écriture. Veuillez changer les permissions pour 666.",
+    "core-rewrite-info": "L'URL sauvegardée sera mise à jour lorsque le panneau d'administration sera chargé.",
+    "admin-uri-filter-constant": "Mettre à jour la valeur de ADMIN_URI_FILTER",
+    "core-rewrite-success-alert": "L'URL du panneau d'administration a été personnalisée vers \"%s\". Veuillez utiliser cette nouvelle URL pour votre prochain accès.",
+    "core-reset-auto-recovered-alert": "Core file reset detected. The URL filter has been automatically re-applied to your previous custom setting: \"%s\". Please use this URL for your next access."
 }
