@@ -1,0 +1,10 @@
+{
+	"plugin-data":
+	{
+		"name": "Liens n'importe où",
+		"description": "Affiche une liste de liens où vous le souhaitez, vous pouvez modifier ces liens dans les paramètres."
+	},
+	"add-a-new-link": "Ajouter un nouveau lien",
+    "links-here-readme": "Copiez le code suivant dans la page PHP de votre thème où vous souhaitez afficher les liens : ",
+    "links-here-code": "<?php Theme::plugins('linksHere'); ?>"
+}
