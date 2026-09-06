@@ -20,5 +20,10 @@
     "for-disabling": "para desabilitar",
     "customize-admin-url": "Customizar URL admin",
     "the-admin-path-is": "O caminho para o admin é ",
-    "for-changing": "para mudar isto"
+    "for-changing": "para mudar isto",
+    "file-not-writable-warning": "is not writable. Please change permissions to 666.",
+    "core-rewrite-info": "The saved URL value will be updated the next time the admin panel is loaded.",
+    "admin-uri-filter-constant": "Update ADMIN_URI_FILTER value",
+    "core-rewrite-success-alert": "The admin URL has been customized to \"%s\". Please use the new URL for your next access.",
+    "core-reset-auto-recovered-alert": "Core file reset detected. The URL filter has been automatically re-applied to your previous custom setting: \"%s\". Please use this URL for your next access."
 }

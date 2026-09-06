@@ -6,5 +6,5 @@
     "releaseDate": "2026-07-21",
     "license": "MIT license",
     "compatible": "3.22.0",
-    "notes": "Enhanced with Core URL Rewrite and Automatic Recovery features by HATTA (https://github.com/HATTANTOCO)."
+    "notes": "Enhanced with Core URL Rewrite by HATTA (https://github.com/HATTANTOCO)."
 }
